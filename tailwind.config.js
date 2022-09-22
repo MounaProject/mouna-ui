@@ -13,6 +13,7 @@ module.exports = {
       'primary_hover': '#f4402f',
       'gray-L': '#444444',
       'white':'white',
+      'green-light':'#f4fbf2',
       'accent': '#000000',
       'lighter': '#999999',
       'border': '#E6E6E6',

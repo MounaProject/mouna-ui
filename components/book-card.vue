@@ -1,8 +1,8 @@
 <template>
-  <div class="m-8 p-7 flex">
-    <div class="pl-7 border-left">
+  <div class="flex px-7 border-left">
+    <div class="">
         <div class="rounded-2xl overflow-hidden mr-7 cursor-pointer">
-            <img class="w-[190px] h-[266px]" src="/books/photo_2022-09-17_18-10-08.jpg" alt="">
+            <img class="w-[190px] h-[266px]" :src="image" alt="">
         </div>
     </div>
     <div class="pt-7">
@@ -23,7 +23,12 @@
 
 <script>
 export default {
-
+    props:{
+        image:{
+            type:String,
+            require:true
+        },
+    }
 }
 </script>
 
